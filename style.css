@@ -1,0 +1,61 @@
+.body {
+    margin: 0;
+}
+.navigation{
+    float: right;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+    text-decoration: none;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.header{
+    height: 90%;
+    width: 95%;
+    padding: 75px 50px;
+    background-color: #101010;
+   
+}
+.logo-container{
+    height: 50%;
+    width:95%;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+
+}
+.logo-container h1{
+    float:left;
+    font-size: 30px;
+    color: white;
+}
+
+.content{
+    height: 100%;
+    padding: 1rem; 
+    position:static;       
+}
+.content p{
+    height: 100%;
+    width:60%;
+    display: table;
+    float: right;
+    font-size:30px;
+}
